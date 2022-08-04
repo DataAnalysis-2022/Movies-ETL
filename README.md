@@ -14,19 +14,19 @@ The movie dataset and the database need to be updated daily.  In order to do thi
 
 ​		The function converts the Wikipedia JSON file to a Pandas DataFrame, shown as the following:
 
-![image-20220803203056986](Resources\image-20220803203056986.png)
+![image-20220803203056986](Resources/image-20220803203056986.png)
 
 
 
 ​		The function converts the Kaggle metadata file to a Pandas DataFrame, as shown below:
 
-![image-20220803202831040](Resources\image-20220803202831040.png)
+![image-20220803202831040](Resources/image-20220803202831040.png)
 
 
 
 ​		The function converts the MovieLens ratings data file to a Pandas DataFrame, as shown below:
 
-![image-20220803203211226](Resources\image-20220803203211226.png)
+![image-20220803203211226](Resources/image-20220803203211226.png)
 
 
 
@@ -34,11 +34,11 @@ The movie dataset and the database need to be updated daily.  In order to do thi
 
    Cleaned wiki data is shown here:
 
-   ![image-20220803203504652](Resources\image-20220803203504652.png)
+   ![image-20220803203504652](Resources/image-20220803203504652.png)
 
 ​		The columns are shown below:
 
-![image-20220803203616737](Resources\image-20220803203616737.png)
+![image-20220803203616737](Resources/image-20220803203616737.png)
 
 
 
@@ -46,24 +46,24 @@ The movie dataset and the database need to be updated daily.  In order to do thi
 
 ​		The movie data is shown below:
 
-![image-20220803203817656](Resources\image-20220803203817656.png)
+![image-20220803203817656](Resources/image-20220803203817656.png)
 
 
 
 ​	The movie data with rating is here to show the ratings (the index and imdb_id was cut off from the screen capture):
 
-![image-20220803204022335](Resources\image-20220803204022335.png)
+![image-20220803204022335](Resources/image-20220803204022335.png)
 
 4. #### Create the Movie Database
 
 ​		The movie and rating data was transferred into postgreSQL database.  The row counts are:
 
-![movies_query](Resources\movies_query.png)
+![movies_query](Resources/movies_query.png)
 
-![ratings_query](Resources\ratings_query.png)
+![ratings_query](Resources/ratings_query.png)
 
 
 
 ​	The time lapse for loading the data is:
 
-![image-20220803211349671](Resources\image-20220803211349671.png)
+![image-20220803211349671](Resources/image-20220803211349671.png)
